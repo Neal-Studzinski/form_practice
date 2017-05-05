@@ -1,0 +1,80 @@
+main {
+    border: 3px solid #fff;
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+  background: dodgerblue;
+  color: #fff;
+  font-family: Helvetica Neue, sans-serif;
+}
+p {
+  margin: .5rem;
+}
+div {
+  text-align: center;
+}
+
+input {
+  background: dodgerblue;
+  color: #fff;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding-left: .5rem;
+  border: 3px solid #fff;
+
+}
+
+.leftColumn {
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    //margin-left: 40px;
+}
+
+.center {
+    display:inline-block;
+    margin-left: 90px;
+    margin-top: 20px;
+    //width: 33%;
+}
+
+.rightColumn {
+    display:inline-block;
+    float: right;
+    margin-left: 90px;
+    margin-top: 20px;
+    //width: 33%;
+}
+
+#submit {
+  //padding: 1rem 2rem;
+  margin-top: 1rem;
+
+}
+select {
+  background: dodgerblue;
+  color: #fff;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+  border: 3px solid #fff;
+
+}
+
+
+textarea{
+  width: 15rem;
+  height: 6rem;
+  background: dodgerblue;
+  color: #fff;
+  font-family: Helvetica Neue, sans-serif;
+  font-size: .75rem;
+  border-radius: 5px;
+  border: 3px solid #fff;
+}
